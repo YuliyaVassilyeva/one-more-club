@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  @apply bg-yellow-200/40 text-gray-800;
+  @apply bg-transparent text-gray-800;
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
 }
