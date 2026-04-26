@@ -14,13 +14,16 @@ export default function Home() {
           <p className="text-xl md:text-2xl font-medium text-yellow-100 mb-2">
             Take control of your own Data.
           </p>
-          <p className="text-base md:text-lg text-yellow-200 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-yellow-200 max-w-2xl mx-auto mb-8">
             Every time an app <strong className="text-white">creates</strong>,{" "}
             <strong className="text-white">updates</strong>, or{" "}
             <strong className="text-white">shares</strong> your personal data, a
             permanent record is written to the blockchain — so you always know
             who has your data and what they did with it.
           </p>
+          <div className="max-w-xl mx-auto">
+            <WaitlistForm />
+          </div>
         </div>
       </header>
 
@@ -344,7 +347,10 @@ export default function Home() {
           <p className="text-yellow-100 text-lg mb-8">
             One More Club makes it simple, honest, and provable — for everyone.
           </p>
-          <WaitlistForm />
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button className="bg-white text-green-700 font-bold px-8 py-3 rounded-xl hover:bg-yellow-50 transition shadow-lg">Get Early Access</button>
+            <button className="border-2 border-white text-white font-bold px-8 py-3 rounded-xl hover:bg-white hover:text-green-700 transition">For Developers →</button>
+          </div>
         </div>
       </section>
 
