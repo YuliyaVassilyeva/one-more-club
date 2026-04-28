@@ -122,7 +122,7 @@ export default function Home() {
           </ol>
           <div className="text-center mt-10">
             <a
-              href="/onemoreclub-workflow.pdf"
+              href="/onemoreclub-workflow-light.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-white font-bold px-6 py-3 rounded-xl shadow transition"
