@@ -205,7 +205,7 @@ export default function Home() {
       {/* CTA */}
       <section className="bg-gradient-to-br from-green-700 to-yellow-500 text-white py-16 px-6 text-center">
         <div className="max-w-2xl mx-auto">
-          <div className="text-5xl mb-4">🚀</div>
+          <img src="/IMG_3989.jpeg" alt="" className="w-24 h-24 rounded-full object-cover mx-auto mb-4 shadow-lg" />
           <h2 className="text-3xl font-bold mb-3">Data privacy shouldn&apos;t be complicated.</h2>
           <p className="text-yellow-100 text-lg mb-8">
             One More Club makes it simple, honest, and provable — for everyone.
