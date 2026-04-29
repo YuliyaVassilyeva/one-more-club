@@ -134,47 +134,6 @@ export default function Home() {
       </section>
 
 
-      {/* Feature Comparison Table */}
-      <section className="bg-yellow-50 py-14 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-10">Feature Comparison</h2>
-          <div className="overflow-x-auto rounded-2xl shadow border border-gray-100">
-            <table className="w-full text-sm text-left">
-              <thead className="bg-green-800 text-white">
-                <tr>
-                  <th className="px-5 py-4 font-semibold w-1/2">Feature</th>
-                  <th className="px-5 py-4 font-semibold text-center">👤 User</th>
-                  <th className="px-5 py-4 font-semibold text-center">🏢 App Owner</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-100">
-                {[
-                  ["View data creation events", true, true],
-                  ["View data update history", true, true],
-                  ["See who your data was shared with", true, true],
-                  ["Real-time alerts on data events", true, false],
-                  ["Request data deletion & verify it happened", true, false],
-                  ["Manage consent & revoke access", true, false],
-                  ["GDPR / CCPA auto-compliance logs", false, true],
-                  ["API integration (3 lines of code)", false, true],
-                  ["One More Club Trust Badge for your site", false, true],
-                  ["Immutable blockchain proof (no tampering)", true, true],
-                ].map(([feature, user, app]) => (
-                  <tr key={feature as string} className="hover:bg-gray-50">
-                    <td className="px-5 py-4">{feature as string}</td>
-                    <td className="px-5 py-4 text-center font-bold text-lg">
-                      {user ? <span className="text-emerald-500">✓</span> : <span className="text-gray-300">—</span>}
-                    </td>
-                    <td className="px-5 py-4 text-center font-bold text-lg">
-                      {app ? <span className="text-emerald-500">✓</span> : <span className="text-gray-300">—</span>}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
 
       {/* Real-World Use Cases */}
       <section className="max-w-4xl mx-auto px-6 py-14">
