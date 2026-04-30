@@ -7,7 +7,7 @@ export default function Home() {
       {/* Hero */}
       <header className="bg-gradient-to-br from-yellow-500 to-green-700 text-white py-16 px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <div className="text-5xl mb-4">🔐</div>
+          <img src="/IMG_4407.png" alt="One More Club logo" className="w-24 h-24 mx-auto mb-4 object-contain" />
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
             One More Club
           </h1>
@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* How It Works */}
-      <section className="bg-green-50 py-14 px-6">
+      <section className="bg-white py-14 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-2">How It Works</h2>
           <p className="text-center text-gray-400 mb-10">
@@ -172,7 +172,8 @@ export default function Home() {
       </section>
 
       {/* Why Blockchain */}
-      <section className="max-w-4xl mx-auto px-6 py-14">
+      <section className="bg-white py-14 px-6">
+        <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-2">Why Blockchain?</h2>
         <p className="text-center text-gray-400 mb-10">
           Three words: <strong>Nobody can lie.</strong>
@@ -199,6 +200,7 @@ export default function Home() {
               Only a cryptographic fingerprint (hash) is stored on-chain — never your actual personal data.
             </p>
           </div>
+        </div>
         </div>
       </section>
 
