@@ -88,13 +88,13 @@ export function WaitlistForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           disabled={status.kind === "submitting"}
-          className="flex-1 px-4 py-3 rounded-lg border border-white/40 bg-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/60 disabled:opacity-60"
+          className="flex-1 px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 disabled:opacity-60"
           aria-label="Email address"
         />
         <button
           type="submit"
           disabled={status.kind === "submitting"}
-          className="px-5 py-3 rounded-lg bg-white text-green-700 font-semibold hover:bg-yellow-50 disabled:opacity-60 disabled:cursor-not-allowed transition-colors"
+          className="px-5 py-3 rounded-lg bg-green-700 text-white font-semibold hover:bg-green-800 disabled:opacity-60 disabled:cursor-not-allowed transition-colors"
         >
           {status.kind === "submitting" ? "Joining…" : "Join the movement"}
         </button>
