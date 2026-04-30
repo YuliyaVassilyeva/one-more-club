@@ -5,19 +5,19 @@ export default function Home() {
     <main className="text-gray-800 font-sans">
 
       {/* Hero */}
-      <header className="bg-gradient-to-br from-yellow-500 to-green-700 text-white py-16 px-6 text-center">
+      <header className="bg-white py-16 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <img src="/IMG_4407.png" alt="One More Club logo" className="w-24 h-24 mx-auto mb-4 object-contain" />
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight text-gray-900">
             One More Club
           </h1>
-          <p className="text-xl md:text-2xl font-medium text-yellow-100 mb-2">
+          <p className="text-xl md:text-2xl font-medium text-gray-600 mb-2">
             Take control of your own Data.
           </p>
-          <p className="text-base md:text-lg text-yellow-200 max-w-2xl mx-auto mb-8">
-            Every time an app <strong className="text-white">creates</strong>,{" "}
-            <strong className="text-white">updates</strong>, or{" "}
-            <strong className="text-white">shares</strong> your personal data, a
+          <p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto mb-8">
+            Every time an app <strong className="text-gray-800">creates</strong>,{" "}
+            <strong className="text-gray-800">updates</strong>, or{" "}
+            <strong className="text-gray-800">shares</strong> your personal data, a
             permanent record is written to the blockchain — so you always know
             who has your data and what they did with it.
           </p>
@@ -28,7 +28,7 @@ export default function Home() {
       </header>
 
       {/* Simple Explainer */}
-      <section className="max-w-4xl mx-auto px-6 py-14">
+      <section className="bg-white max-w-4xl mx-auto px-6 py-14">
         <h2 className="text-3xl font-bold text-center mb-2">What Is This, Simply?</h2>
         <p className="text-center text-gray-500 mb-10 text-lg">
           Think of it like a certified mail receipt — for your personal information.
@@ -136,7 +136,7 @@ export default function Home() {
 
 
       {/* Real-World Use Cases */}
-      <section className="max-w-4xl mx-auto px-6 py-14">
+      <section className="bg-white max-w-4xl mx-auto px-6 py-14">
         <h2 className="text-3xl font-bold text-center mb-2">Real-World Use Cases</h2>
         <p className="text-center text-gray-400 mb-10 text-lg">
           Everyday moments where One More Club gives you answers.
