@@ -203,22 +203,22 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="bg-gradient-to-br from-green-700 to-yellow-500 text-white py-16 px-6 text-center">
+      <section className="bg-white py-16 px-6 text-center">
         <div className="max-w-2xl mx-auto">
           <img src="/lemon.png" alt="" className="w-32 h-auto mx-auto mb-4 drop-shadow-lg" />
-          <h2 className="text-3xl font-bold mb-3">Data privacy shouldn&apos;t be complicated.</h2>
-          <p className="text-yellow-100 text-lg mb-8">
+          <h2 className="text-3xl font-bold mb-3 text-gray-900">Data privacy shouldn&apos;t be complicated.</h2>
+          <p className="text-gray-600 text-lg mb-8">
             One More Club makes it simple, honest, and provable — for everyone.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-green-700 font-bold px-8 py-3 rounded-xl hover:bg-yellow-50 transition shadow-lg">Get Early Access</button>
-            <button className="border-2 border-white text-white font-bold px-8 py-3 rounded-xl hover:bg-white hover:text-green-700 transition">For Developers →</button>
+            <button className="bg-green-700 text-white font-bold px-8 py-3 rounded-xl hover:bg-green-800 transition shadow-lg">Get Early Access</button>
+            <button className="border-2 border-green-700 text-green-700 font-bold px-8 py-3 rounded-xl hover:bg-green-700 hover:text-white transition">For Developers →</button>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-green-900 text-yellow-100 text-center text-sm py-6">
+      <footer className="bg-white text-gray-600 text-center text-sm py-6">
         <p>© 2026 One More Club — Blockchain Data Provenance Platform. Built with ❤️ for privacy.</p>
       </footer>
 
