@@ -7,7 +7,7 @@ export default function Home() {
       {/* Hero */}
       <header className="bg-white py-16 px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <img src="/IMG_0083.png" alt="One More Club logo" className="w-48 h-48 mx-auto mb-4 object-contain" />
+          <img src="/lemon.png" alt="One More Club logo" className="w-48 h-auto mx-auto mb-4 drop-shadow-lg" />
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight text-gray-900">
             One More Club
           </h1>
