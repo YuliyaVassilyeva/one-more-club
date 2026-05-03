@@ -38,7 +38,7 @@ export function WaitlistForm() {
       if (res.ok && data.status === "ok") {
         setStatus({
           kind: "success",
-          message: "Check your inbox to confirm your email.",
+          message: "You've been added to the waitlist!",
         });
         setEmail("");
         return;
@@ -55,7 +55,7 @@ export function WaitlistForm() {
       if (res.status === 202 && data.status === "saved_but_email_failed") {
         setStatus({
           kind: "success",
-          message: "You're on the list — confirmation email is delayed.",
+          message: "You've been added to the waitlist!",
         });
         setEmail("");
         return;
