@@ -74,9 +74,9 @@ export default function Home() {
           <ol className="relative border-l-4 border-yellow-200 space-y-8 ml-4">
             <li className="pl-8 relative">
               <span className="absolute -left-5 bg-yellow-500 text-white w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm shadow">1</span>
-              <h4 className="font-bold text-lg">You sign up for an app — say, a doctor&apos;s portal.</h4>
+              <h4 className="font-bold text-lg">You sign up for Facebook.</h4>
               <p className="text-gray-500 text-sm mt-1">
-                The app collects your name, date of birth, and medical history.
+                Facebook collects your name, email, birthday, location, and browsing behavior.
               </p>
             </li>
             <li className="pl-8 relative">
@@ -93,7 +93,7 @@ export default function Home() {
             <li className="pl-8 relative">
               <span className="absolute -left-5 bg-emerald-500 text-white w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm shadow">3</span>
               <h4 className="font-bold text-lg">
-                The doctor&apos;s office shares your record with a specialist.
+                Facebook shares your personal information with third-party advertisers and data brokers.
               </h4>
               <p className="text-gray-500 text-sm mt-1">
                 A <em>share record</em> is logged — who shared it, who received
