@@ -96,7 +96,7 @@ export function WaitlistForm() {
           disabled={status.kind === "submitting"}
           className="px-5 py-3 rounded-lg bg-green-700 text-white font-semibold hover:bg-green-800 disabled:opacity-60 disabled:cursor-not-allowed transition-colors"
         >
-          {status.kind === "submitting" ? "Joining…" : "Join the movement"}
+          {status.kind === "submitting" ? "Joining…" : "Become a Member"}
         </button>
       </div>
 
