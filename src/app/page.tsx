@@ -93,43 +93,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Simple Explainer */}
-      <section className="bg-white max-w-4xl mx-auto px-6 py-14">
-        <h2 className="text-3xl font-bold text-center mb-2">What Is This, Simply?</h2>
-        <p className="text-center text-gray-500 mb-10 text-lg">
-          Think of it like a certified mail receipt — for your personal information.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-          <div className="bg-white rounded-2xl shadow p-6 border-t-4 border-yellow-400">
-            <div className="text-4xl mb-3">📬</div>
-            <h3 className="font-bold text-lg mb-1">Regular Internet Today</h3>
-            <p className="text-gray-500 text-sm">
-              Your name, address, location or health info is collected yet you
-              have no idea where it is going, who sees it or who profits from it.
-            </p>
-          </div>
-          <div className="bg-white rounded-2xl shadow p-6 border-t-4 border-green-400">
-            <div className="text-4xl mb-3">🧾</div>
-            <h3 className="font-bold text-lg mb-1">One More Club Adds a Receipt</h3>
-            <p className="text-gray-500 text-sm">
-              Every time any app touches your data, a{" "}
-              <strong>tamper-proof receipt</strong> is recorded — forever — on
-              the blockchain. And with One More Club, our customers get{" "}
-              <strong>paid for their own data</strong>.
-            </p>
-          </div>
-          <div className="bg-white rounded-2xl shadow p-6 border-t-4 border-emerald-400">
-            <div className="text-4xl mb-3">✅</div>
-            <h3 className="font-bold text-lg mb-1">You Stay In Control</h3>
-            <p className="text-gray-500 text-sm">
-              You can see every receipt,{" "}
-              <strong>audit who has your data</strong>, and hold apps legally
-              accountable — all from one simple dashboard.
-            </p>
-          </div>
-        </div>
-      </section>
-
     </main>
   );
 }
