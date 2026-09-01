@@ -7,9 +7,8 @@ export default function Home() {
       {/* Hero */}
       <header className="bg-white py-16 px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <img src="/IMG_0084.jpeg" alt="One More Club logo" className="w-48 h-auto mx-auto mb-4" />
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight text-gray-900">
-            One More Club
+            One More Club<span className="align-super text-xl md:text-2xl">™</span>
           </h1>
           <p className="text-xl md:text-2xl font-medium text-gray-600 mb-2">
             Take control of your own Data.
@@ -201,6 +200,25 @@ export default function Home() {
             </p>
           </div>
         </div>
+        </div>
+      </section>
+
+      {/* Team */}
+      <section className="bg-white py-14 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-2 tracking-widest">W H O .</h2>
+          <p className="text-center text-gray-400 mb-10 text-lg">
+            A team built for this moment.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-white rounded-2xl shadow p-6 border-t-4 border-yellow-400 text-center">
+              <h3 className="font-bold text-lg mb-1">Eddie Vilchez</h3>
+              <p className="text-gray-500 text-sm font-medium mb-2">Product Manager, CPA</p>
+              <p className="text-gray-500 text-sm">
+                Product Manager bringing McKinsey and PwC expertise.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
