@@ -79,7 +79,7 @@ export default function Home() {
           </div>
           <div className="bg-white rounded-2xl shadow p-6 border-t-4 border-yellow-500 text-center">
             <h3 className="font-bold text-lg mb-1">Eddie</h3>
-            <p className="text-gray-500 text-sm font-medium mb-2">CFO, One More Club</p>
+            <p className="text-gray-500 text-sm font-medium mb-2">Strategic Contributor, One More Club</p>
             <p className="text-gray-500 text-sm">
               Brings PwC and McKinsey experience.
             </p>
