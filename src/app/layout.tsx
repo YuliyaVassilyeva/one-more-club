@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "One More Club",
-  description: "Your data, your proof.",
+  description: "Miami's Newest Community",
 };
 
 export default function RootLayout({
