@@ -93,6 +93,10 @@ export default function Home() {
         </p>
       </section>
 
+      <footer className="text-center text-gray-400 text-sm py-8">
+        &copy; 2026 One More Club&trade;. All rights reserved.
+      </footer>
+
     </main>
   );
 }
