@@ -48,6 +48,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Events */}
+      <section className="bg-white max-w-4xl mx-auto px-6 py-14">
+        <h2 className="text-3xl font-bold text-center mb-10 tracking-widest">E V E N T S .</h2>
+        <div className="bg-white rounded-2xl shadow p-6 border-t-4 border-green-500 max-w-xl mx-auto text-center">
+          <h3 className="font-bold text-xl mb-1">One More Club: AI Governance Chatbot Edition</h3>
+          <p className="text-gray-500 text-sm font-medium mb-4">
+            September 16, 2026 &middot; 6:00&ndash;9:00 PM ET &middot; Miami (venue TBA)
+          </p>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            An executive and an AI governance professional take the hot seats to
+            work through the responsible rollout of an AI chatbot in real time —
+            plus cocktails, networking, and an audience game.
+          </p>
+          <a
+            href="https://luma.com/q7e4u2hq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-5 py-3 rounded-lg bg-green-700 text-white font-semibold hover:bg-green-800 transition-colors"
+          >
+            RSVP on Luma
+          </a>
+        </div>
+      </section>
+
       {/* Who */}
       <section className="bg-white max-w-4xl mx-auto px-6 py-14">
         <h2 className="text-3xl font-bold text-center mb-2 tracking-widest">W H O .</h2>
